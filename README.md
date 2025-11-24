@@ -13,7 +13,7 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 ## Features
 
 - Authentication with email and connect to MetaMask wallet
-- Multi-chain NFT minting and trading
+- Multi-chain NFT minting and selling
 - Cross-chain NFT transfers
 - Fixed-price listings 
 - Collection management
@@ -29,9 +29,13 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 **I want to** create an account 
 **So that** I can store data about me and save the NFTs I buy
 
+- User can register / login with email and password
+- User can view their profile
+- User can log out 
+
 #### US-2: Connect Wallet
 **As a** user
-**I want to** connect my Web3 wallet (MetaMask, WalletConnect, Coinbase Wallet)
+**I want to** connect my Web3 wallet (MetaMask)
 **So that** I can interact with the marketplace and manage my NFTs
 
  
