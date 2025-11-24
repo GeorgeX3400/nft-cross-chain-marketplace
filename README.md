@@ -49,7 +49,7 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - Balance updates in real-time
 - Multi-chain balances aggregated
 
-#### US-3: Mint Single NFT
+#### US-3: Mint NFT
 **As a** creator
 **I want to** mint a single NFT with metadata
 **So that** I can create and own a unique digital asset
@@ -73,13 +73,8 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - "Buy Now" button is clearly visible
 - User confirms transaction in wallet
 - Payment transferred to seller
-- Royalties distributed to creator
-- Marketplace fee deducted
 - NFT transferred to buyer's wallet
 - Listing removed from marketplace
-
-
-
 
 #### US-5: Transfer NFT Cross-Chain
 **As an** NFT owner
@@ -118,19 +113,7 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - Single transaction flow from user perspective
 
 
-
-#### US-8: Browse NFT Collections
-**As a** user
-**I want to** browse all NFT collections
-**So that** I can discover interesting projects
-
-- Collections displayed in grid/list view
-- Collections show floor price, volume, and item count
-- Trending collections highlighted
-- User can sort by volume, floor price, creation date
-- Pagination implemented
-
-#### US-9: Search NFTs
+#### US-8: Search NFTs
 **As a** user
 **I want to** search for specific NFTs or collections
 **So that** I can quickly find what I'm looking for
@@ -141,7 +124,7 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - Search results paginated
 - Recent searches saved
 
-#### US-10: Filter and Sort NFTs
+#### US-9: Filter and Sort NFTs
 **As a** user
 **I want to** filter and sort NFT listings
 **So that** I can find NFTs matching my criteria
@@ -154,7 +137,7 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - Sort by price, rarity, recently listed, ending soon
 - Filters can be combined
 
-#### US-11: View NFT Details
+#### US-10: View NFT Details
 **As a** user
 **I want to** view detailed information about an NFT
 **So that** I can make informed purchase decisions
