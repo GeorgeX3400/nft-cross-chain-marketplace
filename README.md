@@ -1,6 +1,6 @@
 # Cross-Chain NFT Marketplace
 
-A decentralized NFT marketplace built with Solidity and Next.js that enables users to mint, buy, sell, and trade NFTs across multiple blockchain networks.
+A decentralized NFT marketplace built with Solidity and Next.js that enables users to mint, buy and sell NFTs across multiple blockchain networks.
 
 ## Tech Stack
 
@@ -8,23 +8,28 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - **Frontend**: Next.js
 - **Web3 Integration**: ethers.js 
 - **Cross-Chain**: LayerZero / Wormhole
-- **Blockchain Networks**: Ethereum, Polygon, Arbitrum, Optimism, Base, etc.
+- **Blockchain Networks**: Ethereum, Polygon, Arbitrum, Optimism, etc.
 
 ## Features
 
+- Authentication with email and connect to MetaMask wallet
 - Multi-chain NFT minting and trading
 - Cross-chain NFT transfers
-- Fixed-price listings and auctions
-- Royalty management
+- Fixed-price listings 
 - Collection management
-- User profiles and reputation system
-- Gasless transactions (meta-transactions)
+- User profiles
 
 ---
 
 ## User Stories
 
-#### US-1: Connect Wallet
+
+#### US-1: Authenticate
+**As a** user
+**I want to** create an account 
+**So that** I can store data about me and save the NFTs I buy
+
+#### US-2: Connect Wallet
 **As a** user
 **I want to** connect my Web3 wallet (MetaMask, WalletConnect, Coinbase Wallet)
 **So that** I can interact with the marketplace and manage my NFTs
@@ -36,9 +41,7 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - User's address is shown in shortened format (0x1234...5678)
 - User can disconnect their wallet
 
-
-
-#### US-2: View Account Balance
+#### US-3: View Account Balance
 **As a** user
 **I want to** see my native token balance and NFT count
 **So that** I know what assets I have available
@@ -49,9 +52,9 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - Balance updates in real-time
 - Multi-chain balances aggregated
 
-#### US-3: Mint NFT
+#### US-4: Mint NFT
 **As a** creator
-**I want to** mint a single NFT with metadata
+**I want to** mint an NFT 
 **So that** I can create and own a unique digital asset
 
  
@@ -59,12 +62,12 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - User can enter name, description, and properties
 - User can select blockchain network
 - User can set royalty percentage (0-10%)
-- Metadata is uploaded to IPFS/Arweave
+- Metadata is uploaded to IPFS
 - Transaction confirmation displayed
 - NFT appears in user's collection
 
 
-#### US-4: Buy NFT 
+#### US-5: Buy NFT 
 **As a** buyer
 **I want to** purchase an NFT at the listed price
 **So that** I can own the NFT immediately
@@ -76,19 +79,6 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - NFT transferred to buyer's wallet
 - Listing removed from marketplace
 
-#### US-5: Transfer NFT Cross-Chain
-**As an** NFT owner
-**I want to** transfer my NFT to a different blockchain
-**So that** I can access different ecosystems and marketplaces
-
- 
-- User selects NFT to transfer
-- User selects destination chain
-- User confirms cross-chain transaction
-- NFT locked/burned on source chain
-- NFT minted/unlocked on destination chain
-- Cross-chain message verified
-- User receives NFT on destination chain
 
 #### US-6: View Cross-Chain Listings
 **As a** buyer
@@ -146,7 +136,6 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - Metadata shown (name, description, properties)
 - Current owner displayed
 - Creator information shown
-- Price history chart
 - Transaction history visible
 - Traits and rarity scores displayed
 
