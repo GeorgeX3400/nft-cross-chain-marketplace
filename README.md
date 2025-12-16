@@ -23,17 +23,7 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 
 ## User Stories
 
-
-#### US-1: Authenticate
-**As a** user
-**I want to** create an account 
-**So that** I can store data about me and save the NFTs I buy
-
-- User can register / login with email and password
-- User can view their profile
-- User can log out 
-
-#### US-2: Connect Wallet
+#### US-1: Connect Wallet
 **As a** user
 **I want to** connect my Web3 wallet (MetaMask)
 **So that** I can interact with the marketplace and manage my NFTs
@@ -45,7 +35,7 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - User's address is shown in shortened format (0x1234...5678)
 - User can disconnect their wallet
 
-#### US-3: View Account Balance
+#### US-2: View Account Balance
 **As a** user
 **I want to** see my native token balance and NFT count
 **So that** I know what assets I have available
@@ -56,7 +46,7 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - Balance updates in real-time
 - Multi-chain balances aggregated
 
-#### US-4: Mint NFT
+#### US-3: Mint NFT
 **As a** creator
 **I want to** mint an NFT 
 **So that** I can create and own a unique digital asset
@@ -71,7 +61,7 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - NFT appears in user's collection
 
 
-#### US-5: Buy NFT 
+#### US-4: Buy NFT 
 **As a** buyer
 **I want to** purchase an NFT at the listed price
 **So that** I can own the NFT immediately
@@ -84,7 +74,7 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - Listing removed from marketplace
 
 
-#### US-6: View Cross-Chain Listings
+#### US-5: View Cross-Chain Listings
 **As a** buyer
 **I want to** see NFT listings from multiple chains in one interface
 **So that** I can browse all available NFTs regardless of chain
@@ -95,7 +85,7 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - Prices normalized to USD or preferred currency
 - Cross-chain gas estimates shown
 
-#### US-7: Purchase NFT Cross-Chain
+#### US-6: Purchase NFT Cross-Chain
 **As a** buyer
 **I want to** buy an NFT listed on a different chain
 **So that** I don't need to bridge funds manually
@@ -107,7 +97,7 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - Single transaction flow from user perspective
 
 
-#### US-8: Search NFTs
+#### US-7: Search NFTs
 **As a** user
 **I want to** search for specific NFTs or collections
 **So that** I can quickly find what I'm looking for
@@ -118,7 +108,7 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - Search results paginated
 - Recent searches saved
 
-#### US-9: Filter and Sort NFTs
+#### US-8: Filter and Sort NFTs
 **As a** user
 **I want to** filter and sort NFT listings
 **So that** I can find NFTs matching my criteria
@@ -131,7 +121,7 @@ A decentralized NFT marketplace built with Solidity and Next.js that enables use
 - Sort by price, rarity, recently listed, ending soon
 - Filters can be combined
 
-#### US-10: View NFT Details
+#### US-9: View NFT Details
 **As a** user
 **I want to** view detailed information about an NFT
 **So that** I can make informed purchase decisions
